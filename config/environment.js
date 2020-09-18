@@ -23,6 +23,10 @@ module.exports = function(environment) {
     }
   };
 
+  API: {
+    token: 'abab1212345d7890',
+  }
+
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
